@@ -10,11 +10,18 @@ DEFS_Debug := \
 	'-DV8_DEPRECATION_WARNINGS' \
 	'-DV8_IMMINENT_DEPRECATION_WARNINGS' \
 	'-D_GLIBCXX_USE_CXX11_ABI=1' \
+	'-DELECTRON_ENSURE_CONFIG_GYPI' \
 	'-D_DARWIN_USE_64_BIT_INODE=1' \
 	'-D_LARGEFILE_SOURCE' \
 	'-D_FILE_OFFSET_BITS=64' \
+	'-DUSING_ELECTRON_CONFIG_GYPI' \
+	'-DV8_COMPRESS_POINTERS' \
+	'-DV8_COMPRESS_POINTERS_IN_SHARED_CAGE' \
+	'-DV8_ENABLE_SANDBOX' \
+	'-DV8_31BIT_SMIS_ON_64BIT_ARCH' \
 	'-DOPENSSL_NO_PINSHARED' \
 	'-DOPENSSL_THREADS' \
+	'-DOPENSSL_NO_ASM' \
 	'-DPLATFORM_MAC' \
 	'-DBUILDING_NODE_EXTENSION' \
 	'-DDEBUG' \
@@ -51,13 +58,13 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/include/node \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/src \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/openssl/config \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/openssl/openssl/include \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/uv/include \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/zlib \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/v8/include
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/include/node \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/src \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/config \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/openssl/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/uv/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/zlib \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/v8/include
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=apple_music' \
@@ -67,11 +74,18 @@ DEFS_Release := \
 	'-DV8_DEPRECATION_WARNINGS' \
 	'-DV8_IMMINENT_DEPRECATION_WARNINGS' \
 	'-D_GLIBCXX_USE_CXX11_ABI=1' \
+	'-DELECTRON_ENSURE_CONFIG_GYPI' \
 	'-D_DARWIN_USE_64_BIT_INODE=1' \
 	'-D_LARGEFILE_SOURCE' \
 	'-D_FILE_OFFSET_BITS=64' \
+	'-DUSING_ELECTRON_CONFIG_GYPI' \
+	'-DV8_COMPRESS_POINTERS' \
+	'-DV8_COMPRESS_POINTERS_IN_SHARED_CAGE' \
+	'-DV8_ENABLE_SANDBOX' \
+	'-DV8_31BIT_SMIS_ON_64BIT_ARCH' \
 	'-DOPENSSL_NO_PINSHARED' \
 	'-DOPENSSL_THREADS' \
+	'-DOPENSSL_NO_ASM' \
 	'-DPLATFORM_MAC' \
 	'-DBUILDING_NODE_EXTENSION'
 
@@ -105,13 +119,13 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/include/node \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/src \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/openssl/config \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/openssl/openssl/include \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/uv/include \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/zlib \
-	-I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/deps/v8/include
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/include/node \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/src \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/config \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/openssl/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/uv/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/zlib \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/v8/include
 
 OBJS := \
 	$(obj).target/$(TARGET)/apple-music.o
