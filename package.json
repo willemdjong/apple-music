@@ -48,6 +48,6 @@
     "remote_path": "v{version}",
     "module_name": "apple-music",
     "module_path": "./build/Release/",
-    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz"
+    "package_name": "{module_name}-v{version}-v{node_abi}-{platform}-{arch}.tar.gz"
   }
 }
