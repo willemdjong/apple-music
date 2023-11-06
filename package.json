@@ -1,6 +1,6 @@
 {
-  "name": "appleMusic",
-  "version": "1.0.1",
+  "name": "apple-music",
+  "version": "1.0.3",
   "description": "A node-pre-gyp module which provides the ability to publish to GitHub releases.",
   "bin": "./bin/node-pre-gyp-github.js",
   "main": "index.js",
@@ -11,12 +11,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willemdjong/beatport-sdk.git"
+    "url": "git+https://github.com/willemdjong/apple-music.git"
   },
-  "files": [
-    "bin",
-    "index.js"
-  ],
   "keywords": [
     "node-pre-gyp",
     "binary",
@@ -45,9 +41,10 @@
   "author": "Bill Christo",
   "license": "MIT",
   "binary": {
-    "host": "https://github.com/willemdjong/beatport-sdk/releases/download/",
-    "remote_path": "v1.0.1",
-    "module_name": "appleMusic",
-    "module_path": "./build/Release"
+    "host": "https://github.com/willemdjong/apple-music/releases/download/",
+    "remote_path": "{version}",
+    "module_name": "apple-music",
+    "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz"
   }
 }
