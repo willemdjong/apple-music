@@ -43,8 +43,8 @@
   "binary": {
     "host": "https://github.com/willemdjong/apple-music/releases/download/",
     "remote_path": "{version}",
-    "module_name": "apple-music",
-    "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+    "module_name": "apple_music",
+    "module_path": "./build/Release/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz"
   }
 }

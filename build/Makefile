@@ -326,13 +326,13 @@ $(obj).$(TOOLSET)/%.o: $(obj)/%.S FORCE_DO_CMD
 
 ifeq ($(strip $(foreach prefix,$(NO_LOAD),\
     $(findstring $(join ^,$(prefix)),\
-                 $(join ^,appleMusic.target.mk)))),)
-  include appleMusic.target.mk
+                 $(join ^,apple_music.target.mk)))),)
+  include apple_music.target.mk
 endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
-cmd_regen_makefile = cd $(srcdir); /Users/willemdejong/.nvm/versions/node/v18.15.0/lib/node_modules/npm/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/Users/willemdejong/Library/Caches/node-gyp/18.15.0" "-Dnode_gyp_dir=/Users/willemdejong/.nvm/versions/node/v18.15.0/lib/node_modules/npm/node_modules/node-gyp" "-Dnode_lib_file=/Users/willemdejong/Library/Caches/node-gyp/18.15.0/<(target_arch)/node.lib" "-Dmodule_root_dir=/Users/willemdejong/code/beatport-sdk" "-Dnode_engine=v8" "--depth=." "-Goutput_dir=." "--generator-output=build" -I/Users/willemdejong/code/beatport-sdk/build/config.gypi -I/Users/willemdejong/.nvm/versions/node/v18.15.0/lib/node_modules/npm/node_modules/node-gyp/addon.gypi -I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/include/node/common.gypi "--toplevel-dir=." binding.gyp
-Makefile: $(srcdir)/../../Library/Caches/node-gyp/18.15.0/include/node/common.gypi $(srcdir)/../../.nvm/versions/node/v18.15.0/lib/node_modules/npm/node_modules/node-gyp/addon.gypi $(srcdir)/binding.gyp $(srcdir)/build/config.gypi
+cmd_regen_makefile = cd $(srcdir); /usr/local/lib/node_modules/node-gyp/gyp/gyp_main.py -fmake --ignore-environment "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/Users/willemdejong/Library/Caches/node-gyp/18.15.0" "-Dnode_gyp_dir=/usr/local/lib/node_modules/node-gyp" "-Dnode_lib_file=/Users/willemdejong/Library/Caches/node-gyp/18.15.0/<(target_arch)/node.lib" "-Dmodule_root_dir=/Users/willemdejong/code/beatport-sdk" "-Dnode_engine=v8" "--depth=." "-Goutput_dir=." "--generator-output=build" -I/Users/willemdejong/code/beatport-sdk/build/config.gypi -I/usr/local/lib/node_modules/node-gyp/addon.gypi -I/Users/willemdejong/Library/Caches/node-gyp/18.15.0/include/node/common.gypi "--toplevel-dir=." binding.gyp
+Makefile: $(srcdir)/build/config.gypi $(srcdir)/binding.gyp $(srcdir)/../../../../usr/local/lib/node_modules/node-gyp/addon.gypi $(srcdir)/../../Library/Caches/node-gyp/18.15.0/include/node/common.gypi
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included

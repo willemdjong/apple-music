@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "appleMusic",
+      "target_name": "apple_music",
       "cflags!": [ "-ObjC++" ],
       "cflags_cc!": [ "-ObjC++" ],
       "libraries": [
