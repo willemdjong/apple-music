@@ -1,6 +1,6 @@
 {
   "name": "apple-music",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A node-pre-gyp module which provides the ability to publish to GitHub releases.",
   "bin": "./bin/node-pre-gyp-github.js",
   "main": "index.js",
@@ -27,8 +27,9 @@
   ],
   "dependencies": {
     "@octokit/rest": "18.12.0",
+    "bindings": "^1.5.0",
     "commander": "7.2.0",
-    "bindings": "^1.5.0"
+    "node-pre-gyp": "^0.17.0"
   },
   "devDependencies": {
     "chai": "4.3.6",
