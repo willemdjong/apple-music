@@ -58,13 +58,13 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/include/node \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/src \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/openssl/config \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/openssl/openssl/include \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/uv/include \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/zlib \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/v8/include
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/include/node \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/src \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/config \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/openssl/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/uv/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/zlib \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/v8/include
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=apple_music' \
@@ -119,13 +119,13 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/include/node \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/src \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/openssl/config \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/openssl/openssl/include \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/uv/include \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/zlib \
-	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/27.0.0/deps/v8/include
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/include/node \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/src \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/config \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/openssl/openssl/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/uv/include \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/zlib \
+	-I/var/folders/6m/5nn8kqx56kv87qrrvk7tr6gh0000gn/T/prebuild/electron/25.0.0/deps/v8/include
 
 OBJS := \
 	$(obj).target/$(TARGET)/apple-music.o
