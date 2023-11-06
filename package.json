@@ -1,6 +1,6 @@
 {
-  "name": "beatport-sdk",
-  "version": "1.0.0",
+  "name": "appleMusic",
+  "version": "1.0.1",
   "description": "A node-pre-gyp module which provides the ability to publish to GitHub releases.",
   "bin": "./bin/node-pre-gyp-github.js",
   "main": "index.js",
@@ -31,7 +31,8 @@
   ],
   "dependencies": {
     "@octokit/rest": "18.12.0",
-    "commander": "7.2.0"
+    "commander": "7.2.0",
+    "bindings": "^1.5.0"
   },
   "devDependencies": {
     "chai": "4.3.6",
@@ -45,6 +46,8 @@
   "license": "MIT",
   "binary": {
     "host": "https://github.com/willemdjong/beatport-sdk/releases/download/",
-    "remote_path": "v1.0.0"
+    "remote_path": "v1.0.1",
+    "module_name": "appleMusic",
+    "module_path": "./build/Release"
   }
 }
