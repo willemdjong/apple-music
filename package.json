@@ -45,6 +45,6 @@
   "license": "MIT",
   "binary": {
     "host": "https://github.com/willemdjong/beatport-sdk/releases/download/",
-    "remote_path": "1.0.0"
+    "remote_path": "v1.0.0"
   }
 }
