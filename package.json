@@ -1,10 +1,11 @@
 {
   "name": "apple-music",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A node-pre-gyp module which provides the ability to publish to GitHub releases.",
   "bin": "./bin/node-pre-gyp-github.js",
   "main": "index.js",
   "scripts": {
+    "install": "prebuild-install || node-gyp rebuild --release",
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn publish && git push --follow-tags; fi"
@@ -29,7 +30,8 @@
     "@octokit/rest": "18.12.0",
     "bindings": "^1.5.0",
     "commander": "7.2.0",
-    "node-pre-gyp": "^0.17.0"
+    "node-pre-gyp": "^0.17.0",
+    "prebuild-install": "^7.1.1"
   },
   "devDependencies": {
     "chai": "4.3.6",
