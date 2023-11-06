@@ -42,5 +42,9 @@
     "sinon": "13.0.1"
   },
   "author": "Bill Christo",
-  "license": "MIT"
+  "license": "MIT",
+  "binary": {
+    "host": "https://github.com/willemdjong/beatport-sdk/releases/download/",
+    "remote_path": "1.0.0"
+  }
 }

@@ -1600,6 +1600,14 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
+node-pre-gyp-github@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/node-pre-gyp-github/-/node-pre-gyp-github-1.4.4.tgz"
+  integrity sha512-oE9JD1aXRi4+1jSH7Q+ybEhfujW5bJ66n4YMGpaUp/k2/X/8i09ouK1seznf3wOagcKjytRJCkf71DdEJx2zhA==
+  dependencies:
+    "@octokit/rest" "18.12.0"
+    commander "7.2.0"
+
 node-preload@^0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/node-preload/-/node-preload-0.2.1.tgz"
