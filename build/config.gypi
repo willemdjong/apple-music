@@ -31,7 +31,7 @@
     "is_debug": 0,
     "libdir": "lib",
     "llvm_version": "12.0",
-    "napi_build_version": "0",
+    "napi_build_version": "8",
     "node_builtin_shareable_builtins": [
       "deps/cjs-module-lexer/lexer.js",
       "deps/cjs-module-lexer/dist/lexer.js",
@@ -400,11 +400,15 @@
     "xcode_version": "12.0",
     "nodedir": "/Users/willemdejong/Library/Caches/node-gyp/18.15.0",
     "standalone_static_library": 1,
-    "module": "/Users/willemdejong/code/beatport-sdk/build/Release/apple_music.node",
-    "module_name": "apple_music",
-    "module_path": "/Users/willemdejong/code/beatport-sdk/build/Release",
-    "napi_version": "8",
-    "node_abi_napi": "napi",
-    "node_napi_label": "node-v108"
+    "metrics_registry": "https://registry.npmjs.org/",
+    "global_prefix": "/Users/willemdejong/.nvm/versions/node/v18.15.0",
+    "local_prefix": "/Users/willemdejong/code/beatport-sdk",
+    "globalconfig": "/Users/willemdejong/.nvm/versions/node/v18.15.0/etc/npmrc",
+    "init_module": "/Users/willemdejong/.npm-init.js",
+    "userconfig": "/Users/willemdejong/.npmrc",
+    "node_gyp": "/Users/willemdejong/.nvm/versions/node/v18.15.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "cache": "/Users/willemdejong/.npm",
+    "user_agent": "npm/9.5.0 node/v18.15.0 darwin arm64 workspaces/false",
+    "prefix": "/Users/willemdejong/.nvm/versions/node/v18.15.0"
   }
 }
