@@ -400,9 +400,9 @@
     "xcode_version": "12.0",
     "nodedir": "/Users/willemdejong/Library/Caches/node-gyp/18.15.0",
     "standalone_static_library": 1,
-    "module": "/Users/willemdejong/code/beatport-sdk/build/Release/Release/node-v108-darwin-arm64/apple-music.node",
-    "module_name": "apple-music",
-    "module_path": "/Users/willemdejong/code/beatport-sdk/build/Release/Release/node-v108-darwin-arm64",
+    "module": "/Users/willemdejong/code/beatport-sdk/build/Release/apple_music.node",
+    "module_name": "apple_music",
+    "module_path": "/Users/willemdejong/code/beatport-sdk/build/Release",
     "napi_version": "8",
     "node_abi_napi": "napi",
     "node_napi_label": "node-v108"
